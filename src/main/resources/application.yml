@@ -1,0 +1,22 @@
+
+server:
+  port: 8081
+
+
+
+
+jwt:
+  secret: U2FtcGxlU2VjcmV0S2V5U3RyaW5nRm9ySldUU2lnbmluZw==
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:1235/notification_db
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+
+  liquibase:
+    change-log: classpath:db/changelog/main-changelog.xml
+    enabled: true
