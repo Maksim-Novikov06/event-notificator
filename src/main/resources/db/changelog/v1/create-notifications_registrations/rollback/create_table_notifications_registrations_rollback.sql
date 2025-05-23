@@ -1,0 +1,1 @@
+DROP TABLE  if exists notifications_registrations;
